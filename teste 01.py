@@ -1,1 +1,5 @@
-print('Olá, mundo')
+Co =float(input('informe qual é o tamamho do cateto oposto : '))
+Ca =float(input('informa qual é o tamnho do cateto adjacente : '))
+pot =(Ca **2) + (Co **2) 
+raiz = pot**(1/2)
+print('a soma dos dois catetos vao dar {:.2f} e a hipotenusa é {:.2f}' .format(pot,raiz))
