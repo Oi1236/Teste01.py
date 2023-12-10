@@ -1,0 +1,8 @@
+a = 3421
+
+sen = int(input('Digite sua senha: ")
+
+while sen != a:
+   sen = int(input('Acesso negado. Digite sua senha: ')
+if sen == a:
+   print('Acesso liberado.')
